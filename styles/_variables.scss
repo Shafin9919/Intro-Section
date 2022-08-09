@@ -1,0 +1,22 @@
+// -------Colors------
+
+$white: hsl(0, 0%, 98%);
+$font-color_gray: hsl(0, 0%, 41%);
+$almost-black: hsl(0, 0%, 8%);
+$tranparentBlack:hsla(0, 0%, 8% / .5);
+//  -------Fonts----------
+
+$f-family: "Epilogue", sans-serif;
+$f-size: 1.125rem;
+$f-weight-500: 500;
+$f-weight-700: 700;
+
+
+@mixin button($bg-color,$text-color,$border-color,$border-radius){
+    background-color: $bg-color;
+    color:$text-color;
+    border:3px solid $border-color;
+    border-radius: $border-radius;
+
+   
+    }
